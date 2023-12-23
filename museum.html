@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul.topnav, .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #080808;
+      
+      
+    }
+
+    ul.topnav li {
+      float: left;
+    }
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    ul.topnav li a.active {
+      background-color: #04AA6D;
+    }
+
+    ul.topnav li.right {
+      float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      ul.topnav li.right,
+      ul.topnav li {
+        float: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="topnav">
+          <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+        </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner" id="center">
+            <div class="carousel-item active">
+                <img src="museum.jpg" id="center" class="rounded" style="width: 40%" >
+            </div>
+            
+        </div>
+       
+    </div>
+
+    <div class="container-fluid mt-3">
+        <h1 class="text3">CORDOVA MUSEUM</h1>
+        <p class="text3">KINI LUGARA WA GYUD KO NA SWETO ANI KAY NAG DAKO KO SA ISLA NI DATU LAPU-LAPU. KANI NGA LUGAR SURE GYUD KO NGA NAA GYUD DIRI MAHIBAW AN OR MAKITA NATO ANG HISTORY SA CORDOVA OR GAMIT MAO RA GURO OY WA NAGYUD BITAW KOY NA HIBAW AN..........</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

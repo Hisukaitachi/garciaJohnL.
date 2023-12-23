@@ -1,0 +1,49 @@
+body{
+  background: linear-gradient(to right, #484949, #7aa0f3);
+}
+.title{
+  font-style: italic;
+  text-align: center;
+  color: #080808;
+  
+}
+.text {
+  color: #080808;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+}
+.text2{
+  color: #080808;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+}
+.text3{
+  color: #080808;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+
+}
+
+#center{
+  text-align: center;
+}
+
+#home{
+  color: aliceblue;
+}
+
